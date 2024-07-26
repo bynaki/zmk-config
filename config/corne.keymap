@@ -32,7 +32,7 @@
 &kp Q        &kp W       &kp E        &kp R         &kp T              &kp Y      &kp U       &kp I        &kp O       &kp P
 &ht LSHFT A  &ht LALT S  &ht LCTRL D  &ht LGUI F    &kp G              &kp H      &ht LGUI J  &ht LCTRL K  &ht LALT L  &ht RSHFT SQT
 &kp Z        &kp X       &kp C        &kp V         &kp B              &kp N      &kp M       &kp COMMA    &kp DOT     &kp FSLH
-                                      &lt 2 ESCAPE  &mt RCTRL ENTER    &kp SPACE  &lt 1 BSPC
+                         &trans       &lt 2 ESCAPE  &mt RCTRL ENTER    &kp SPACE  &lt 1 BSPC  &trans
             >;
         };
 
@@ -41,7 +41,7 @@
 &kp LS(EXCL)   &kp LS(AT)     &kp LS(POUND)  &kp LS(LBRC)  &kp LS(RBRC)    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END        &kp LS(COLON)
 &kp LS(PIPE)   &kp BSLH       &kp LS(UNDER)  &kp LS(LPAR)  &kp LS(RPAR)    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT      &kp SEMI
 &kp LS(CARET)  &kp LS(PRCNT)  &kp LS(DLLR)   &kp LBKT      &kp RBKT        &trans    &trans     &trans     &kp LS(TILDE)  &kp GRAVE
-                                             &trans        &kp ENTER       &trans    &trans
+                              &trans         &trans        &kp ENTER       &trans    &trans     &trans
             >;
         };
 
@@ -50,7 +50,7 @@
 &kp INS     &kp F7  &kp F8  &kp F9  &trans     &kp LS(STAR)  &kp N7  &kp N8  &kp N9  &kp LS(PLUS)
 &kp DEL     &kp F4  &kp F5  &kp F6  &trans     &kp EQUAL     &kp N4  &kp N5  &kp N6  &kp MINUS
 &caps_word  &kp F1  &kp F2  &kp F3  &kp F10    &kp N0        &kp N1  &kp N2  &kp N3  &kp FSLH
-                            &trans  &trans     &kp TAB       &trans
+                    &trans  &trans  &trans     &kp TAB       &trans  &trans
             >;
         };
 
@@ -59,7 +59,7 @@
 &sys_reset    &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &sys_reset
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans
 &bootloader   &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &bootloader
-                                          &trans        &trans          &trans  &trans
+                            &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
     };
