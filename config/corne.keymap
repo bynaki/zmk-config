@@ -38,19 +38,19 @@
 
         Right {
             bindings = <
-&kp LS(EXCL)   &kp LS(AT)     &kp LS(POUND)  &kp LS(LBRC)  &kp LS(RBRC)    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END        &kp LS(COLON)
-&kp LS(PIPE)   &kp BSLH       &kp LS(UNDER)  &kp LS(LPAR)  &kp LS(RPAR)    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT      &kp SEMI
-&kp LS(CARET)  &kp LS(PRCNT)  &kp LS(DLLR)   &kp LBKT      &kp RBKT        &trans    &trans     &trans     &kp LS(TILDE)  &kp GRAVE
-                              &trans         &trans        &kp ENTER       &trans    &trans     &trans
+&kp EXCL   &kp AT     &kp HASH   &kp LBRC  &kp RBRC     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp AMPS
+&kp PIPE   &kp BSLH   &kp UNDER  &kp LPAR  &kp RPAR     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp SEMI
+&kp CARET  &kp PRCNT  &kp DLLR   &kp LBKT  &kp RBKT     &trans    &trans     &trans     &kp TILDE  &kp GRAVE
+                      &trans     &trans    &kp ENTER    &trans    &trans     &trans
             >;
         };
 
         Left {
             bindings = <
-&kp INS     &kp F7  &kp F8  &kp F9  &trans     &kp LS(STAR)  &kp N7  &kp N8  &kp N9  &kp LS(PLUS)
-&kp DEL     &kp F4  &kp F5  &kp F6  &trans     &kp EQUAL     &kp N4  &kp N5  &kp N6  &kp MINUS
-&caps_word  &kp F1  &kp F2  &kp F3  &kp F10    &kp N0        &kp N1  &kp N2  &kp N3  &kp FSLH
-                    &trans  &trans  &trans     &kp TAB       &trans  &trans
+&kp DEL     &kp F7  &kp F8  &kp F9  &trans     &kp PLUS   &kp N7  &kp N8  &kp N9  &kp ASTRK
+&kp TAB     &kp F4  &kp F5  &kp F6  &kp INS    &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp COLON
+&caps_word  &kp F1  &kp F2  &kp F3  &kp F10    &kp MINUS  &kp N1  &kp N2  &kp N3  &kp FSLH
+                    &trans  &trans  &trans     &trans     &kp N0  &trans
             >;
         };
 
