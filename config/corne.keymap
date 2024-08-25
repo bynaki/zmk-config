@@ -25,7 +25,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_J";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             bindings = <&ht LGUI J>, <&kp J>;
         };
 
@@ -33,7 +33,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_K";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             bindings = <&ht LCTRL K>, <&kp K>;
         };
 
@@ -41,7 +41,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_L";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             bindings = <&ht LALT L>, <&kp L>;
         };
 
@@ -49,7 +49,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_BSPC";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             bindings = <&lt 1 BSPC>, <&kp BSPC>;
         };
 
@@ -57,7 +57,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_DOWN";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             bindings = <&ht LGUI DOWN>, <&kp DOWN>;
         };
 
@@ -65,7 +65,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_UP";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             bindings = <&ht LCTRL UP>, <&kp UP>;
         };
 
@@ -73,7 +73,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_RIGHT";
             #binding-cells = <0>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             bindings = <&ht LALT RIGHT>, <&kp RIGHT>;
         };
     };
