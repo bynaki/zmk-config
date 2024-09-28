@@ -44,19 +44,19 @@
 
         Right {
             bindings = <
-  &kp EXCL          &kp AT          &kp HASH        &kp LBRC       &kp RBRC     &kp HOME  &kp PG_DN      &kp PG_UP     &kp END         &kp GRAVE
-  &ht LSHIFT CARET  &ht LALT PRCNT  &ht LCTRL DLLR  &ht LGUI LPAR  &kp RPAR     &kp LEFT  &ht LGUI DOWN  &ht LCTRL UP  &ht LALT RIGHT  &ht RSHFT SEMI
-  &kp BSLH          &kp PIPE        &kp AMPS        &kp LBKT       &kp RBKT     &kp BSPC  &trans         &trans        &trans          &kp UNDER
-                                    &trans          &trans         &kp ENTER    &trans    &trans         &trans
+  &kp EXCL          &kp AT          &kp HASH        &kp PLUS        &kp LPAR     &kp HOME  &kp PG_DN      &kp PG_UP     &kp END         &kp GRAVE
+  &ht LSHIFT CARET  &ht LALT PRCNT  &ht LCTRL DLLR  &ht LGUI EQUAL  &kp LBRC     &kp LEFT  &ht LGUI DOWN  &ht LCTRL UP  &ht LALT RIGHT  &ht RSHFT SEMI
+  &kp BSLH          &kp PIPE        &kp AMPS        &kp MINUS       &kp LBKT     &kp BSPC  &kp UNDER      &trans        &trans          &kp UNDER
+                                    &trans          &trans          &kp ENTER    &trans    &trans         &trans
             >;
         };
 
         Left {
             bindings = <
-  &kp DEL         &kp F7       &kp F8        &kp F9       &trans     &kp PLUS   &kp N7       &kp N8        &kp N9       &kp ASTRK
-  &ht LSHIFT TAB  &ht LALT F4  &ht LCTRL F5  &ht LGUI F6  &kp INS    &kp EQUAL  &ht LGUI N4  &ht LCTRL N5  &ht LALT N6  &ht RSHIFT COLON
-  &caps_word      &kp F1       &kp F2        &kp F3       &kp F10    &kp MINUS  &kp N1       &kp N2        &kp N3       &kp TILDE
-                               &trans        &trans       &trans     &trans     &lt 1 N0     &trans
+  &kp DEL         &kp F7       &kp F8        &kp F9       &trans     &kp RPAR  &kp N7       &kp N8        &kp N9       &kp ASTRK
+  &ht LSHIFT TAB  &ht LALT F4  &ht LCTRL F5  &ht LGUI F6  &kp INS    &kp RBRC  &ht LGUI N4  &ht LCTRL N5  &ht LALT N6  &ht RSHIFT COLON
+  &caps_word      &kp F1       &kp F2        &kp F3       &kp F10    &kp RBKT  &kp N1       &kp N2        &kp N3       &kp TILDE
+                               &trans        &trans       &trans     &trans    &lt 1 N0     &trans
             >;
         };
 
