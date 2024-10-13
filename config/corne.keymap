@@ -44,19 +44,19 @@
 
         Right {
             bindings = <
-  &kp EXCL          &kp AT          &kp HASH        &kp MINUS       &kp LPAR     &kp RIGHT_PARENTHESIS  &kp TILDE      &kp ASTERISK   &kp PLUS        &kp GRAVE
-  &ht LSHIFT CARET  &ht LALT PRCNT  &ht LCTRL DLLR  &ht LGUI EQUAL  &kp LBRC     &kp LEFT               &ht LGUI DOWN  &ht LCTRL UP   &ht LALT RIGHT  &ht RSHFT COLON
-  &kp BSLH          &kp PIPE        &kp AMPS        &kp UNDER       &kp LBKT     &kp RIGHT_BRACKET      &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP     &kp END
-                                    &trans          &trans          &kp ENTER    &kp BACKSPACE          &trans         &trans
+  &kp EXCL          &kp AT          &kp HASH        &kp MINUS       &kp TILDE    &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP   &kp END         &kp GRAVE
+  &ht LSHIFT CARET  &ht LALT PRCNT  &ht LCTRL DLLR  &ht LGUI EQUAL  &kp PLUS     &kp LEFT       &ht LGUI DOWN  &ht LCTRL UP  &ht LALT RIGHT  &ht RSHFT SEMI
+  &kp BSLH          &kp PIPE        &kp AMPS        &kp UNDER       &kp ASTRK    &kp BACKSPACE  &trans         &trans        &trans          &trans
+                                    &trans          &trans          &kp ENTER    &trans         &trans         &trans
             >;
         };
 
         Left {
             bindings = <
-  &kp DEL         &kp F7       &kp F8        &kp F9       &trans     &kp PLUS   &kp N7       &kp N8        &kp N9       &kp ASTRK
-  &ht LSHIFT TAB  &ht LALT F4  &ht LCTRL F5  &ht LGUI F6  &kp INS    &kp RBRC   &ht LGUI N4  &ht LCTRL N5  &ht LALT N6  &ht RSHIFT SEMI
-  &caps_word      &kp F1       &kp F2        &kp F3       &kp F10    &kp MINUS  &kp N1       &kp N2        &kp N3       &kp SLASH
-                               &trans        &trans       &trans     &trans     &lt 1 N0     &trans
+  &kp DEL         &kp F7       &kp F8        &kp F9       &kp LBRC    &kp RBRC  &kp N7       &kp N8        &kp N9       &kp ASTRK
+  &ht LSHIFT TAB  &ht LALT F4  &ht LCTRL F5  &ht LGUI F6  &kp LPAR    &kp RPAR  &ht LGUI N4  &ht LCTRL N5  &ht LALT N6  &ht RSHIFT COLON
+  &caps_word      &kp F1       &kp F2        &kp F3       &kp LBKT    &kp RBKT  &kp N1       &kp N2        &kp N3       &kp SLASH
+                               &trans        &trans       &trans      &trans    &lt 1 N0     &trans
             >;
         };
 
